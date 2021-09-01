@@ -7,6 +7,10 @@ import java.lang.RuntimeException
 import kotlin.system.measureTimeMillis
 import kotlin.time.measureTime
 
+/**
+ * 协成的本质是挂起和恢复
+ * 在同一个线程中有序的调度执行
+ */
 fun main() {
         /**
          * 一个简单协成
